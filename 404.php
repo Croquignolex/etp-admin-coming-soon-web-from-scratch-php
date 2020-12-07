@@ -65,7 +65,7 @@
                 <h1>404</h1>
                 <h2>Oops!</h2>
                 <p>Ressource non trouvée</p>
-                <a href="https://etp.moyo-industry.com/">Retour à l'accueil</a>
+                <a href="https://etp-admin.moyo-industry.com/">Retour à l'accueil</a>
             </div>
         </div>
     </body>

@@ -49,7 +49,7 @@ body {
     -ms-transform: scale(2.4);
     transform: scale(2.4);
     border-radius: 50%;
-    background-color: #f2f5f8;
+    background-color: #e9c1cd;
     z-index: -1;
 }
 
@@ -59,7 +59,7 @@ body {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 10px;
-    color: #151723;
+    color: #e90c59;
     text-transform: uppercase;
 }
 
@@ -84,7 +84,7 @@ body {
     font-weight: 700;
     border-radius: 40px;
     text-decoration: none;
-    color: #388dbc;
+    color: #e90c59;
 }
 
 @media only screen and (max-width: 767px) {

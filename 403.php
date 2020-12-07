@@ -65,7 +65,7 @@
                 <h1>403</h1>
                 <h2>Oops!</h2>
                 <p>Le serveur a compris la requête, mais refuse de l'exécuter</p>
-                <a href="https://etp.moyo-industry.com/">Retour à l'accueil</a>
+                <a href="https://etp-admin.moyo-industry.com/">Retour à l'accueil</a>
             </div>
         </div>
     </body>
