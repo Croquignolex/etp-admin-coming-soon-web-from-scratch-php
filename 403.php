@@ -10,7 +10,7 @@
 
         <meta name="robots" content="noindex">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="base-url" content="https://etp.moyo-industry.com/">
+        <meta name="base-url" content="https://etp-admin.moyo-industry.com/">
         <meta name="locale" content="fr">
 
         <title>403 - MMAC</title>
@@ -42,7 +42,7 @@
         <meta property="og:ttl" content="0" />
 
         <meta property="og:description" content="MMAC">
-        <meta property="og:url" content="https://etp.moyo-industry.com/" />
+        <meta property="og:url" content="https://etp-admin.moyo-industry.com/" />
         <meta property="og:image" content="img/logo.png" />
         <meta property="twitter:image" content="img/logo.png" />
 
