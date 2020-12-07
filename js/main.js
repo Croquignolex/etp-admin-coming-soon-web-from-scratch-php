@@ -3,7 +3,7 @@ $(document).ready(function() {
     /*=====================================
         Page loader Out / Main page In
     =====================================*/
-    $('.page-loader').fadeToggle(1500);
+    // $('.page-loader').fadeToggle(1500);
     setTimeout(function () {
         $('.main').addClass('scale');
     },0);

@@ -57,9 +57,6 @@
 
         <canvas id="snow"></canvas>
 
-        <div class="page-loader"><div class="loader-img"></div></div>
-
-
         <!-- Main Content Area -->
         <div class="main">
             <!-- Header area -->
