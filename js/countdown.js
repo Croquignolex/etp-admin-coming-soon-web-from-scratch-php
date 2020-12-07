@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     // Set countdown date
-    var countdownDate = 'Jul 18 2020';
+    var countdownDate = 'Jan 01 2021';
 
     function time_counting(timecount) {
         var t = Date.parse(timecount) - Date.parse(new Date());

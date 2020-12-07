@@ -1,23 +1,4 @@
-/**************************************************
-
-	AUTHOR: MK
-	TEMPLATE: MK - Coming Soon Template
-	VERSION: 1.0
-
-*********************************************************/
-
 @charset "utf-8";
-
-/**************************************************
-
-	TABLE OF CONTENTS
-	1. GENERAL STYLES
-	2. BACKGROUND STYLES
-	3. CONTENT STYLES
-	4. COUNTDOWN STYLES
-	5. MODAL/FORM STYLES
-
-*********************************************************/
 
 /*******************************************************************/
 /* 1. General styles */
@@ -37,7 +18,7 @@ html, body {
 
 a, a:active, a:focus, a:hover, a:visited {
     text-decoration: none;
-    color: #0060A9;
+    color: #fff;
     outline: none;
 }
 
@@ -60,15 +41,6 @@ ul {
     top: 0;
     z-index: 200;
 }
-
-/*
-.loader-img {
-    background: url(../img/loader.svg) no-repeat center center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-*/
 
 .overlay {
     background: rgba(0,0,0,.7);
@@ -125,22 +97,6 @@ canvas {
     left: 0;
 }
 
-.image-bg {
-    background: url(../images/image-bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.gradient-bg {
-    background: linear-gradient(100deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-    -webkit-animation: gradient 15s ease infinite;
-    -moz-animation: gradient 15s ease infinite;
-    animation: gradient 15s ease infinite;
-    min-height: 100vh;
-}
-
 .gradient-bg .countdown-content h1 span {color:#fff;}
 
 @-webkit-keyframes gradient {
@@ -165,19 +121,6 @@ canvas {
     background: #000;
 }
 
-.bubbles-bg {
-    background: url(../images/back-image.jpeg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    height: 100%; */
-}
-
 #bubbleContainer {
     position: absolute;
     height: 100%;
@@ -189,7 +132,7 @@ canvas {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background: rgba(197, 77, 23, 0.75);
+    background: rgba(233, 12, 89, 0.75);
 }
 
 /*******************************************************************/
@@ -222,7 +165,7 @@ canvas {
 }
 
 .countdown-content h1 span {
-    color: #F88214;
+    color: #e90c59;
 }
 .gradient-bg .countdown-content h1 span {
     color: #000;
@@ -248,14 +191,14 @@ canvas {
     margin-right: 10px;
     border-radius: 3px;
     border: none;
-    background: #EF7300;
+    background: #e90c59;
     border-radius: 0px 10px 0px 10px;
     outline: none;
 }
 .custom-btn:hover {
     background: #fff;
     border-radius: 10px 0px 10px 0px;
-    color: #ef7300;
+    color: #e90c59;
 }
 
 .social-media {
@@ -282,8 +225,8 @@ canvas {
 
 .social-media a:hover {
     color: #fff;
-    background: #EF7300;
-    border: 1px solid #EF7300;
+    background: #e90c59;
+    border: 1px solid #e90c59;
 }
 
 /*******************************************************************/
@@ -291,8 +234,8 @@ canvas {
 /*******************************************************************/
 
 .time {
-    border-top: 2px solid rgb(114, 75, 48);
-    border-bottom: 2px solid rgb(114, 75, 48);
+    border-top: 2px solid #e90c59;
+    border-bottom: 2px solid #e90c59;
 }
 
 .gradient-bg .time {
@@ -378,7 +321,7 @@ canvas {
 
 #contactModal .modal-content {
     background: rgba(0,0,0,.7);
-    border: 1px solid #EF7300;
+    border: 1px solid #e90c59;
     margin-top: 150px;
     padding: 40px 20px;
 }
@@ -413,7 +356,7 @@ canvas {
     padding: 10px 20px;
     border-radius: 3px;
     border: none;
-    background: #EF7300;
+    background: #e90c59;
 }
 
 .gradient-bg .contact-btn{
@@ -429,7 +372,7 @@ canvas {
 
 .contact-btn:hover {
     background: #424242;
-    color: #EF7300;
+    color: #e90c59;
 }
 
 #contactform input {

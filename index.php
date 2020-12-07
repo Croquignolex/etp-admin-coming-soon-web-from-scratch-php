@@ -57,39 +57,22 @@
 
         <canvas id="snow"></canvas>
 
-        <!-- Main Content Area -->
         <div class="main">
-            <!-- Header area -->
             <header class="page-header">
-                <!-- Container -->
                 <div class="container-fluid">
                     <div class="row">
-
-                        <!-- Left Section -->
                         <div class="col-md-5 col-sm-12 mt-30">
-
-                            <!-- Logo -->
-                            <div class="page-logo col-sm-12">
-                                <img src="images/logo.png" alt="logo" class="logo">
-                            </div>
-                            <!-- /Logo -->
-
-                            <!-- Title and Short Description -->
+                            <div class="page-logo col-sm-12"><img src="img/logo.png" alt="logo" class="logo"></div>
                             <div class="countdown-content countdown-text col-sm-12">
-                                <!-- Title -->
-                                <h1>We are <span>coming</span> soon...</h1>
-
-                                <!-- Short Description -->
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                <h1>Bientôt les <span>admin</span> auront le controle...</h1>
+                                <p>
+                                    L'administrateur d'une applicatin web est en charge des activités de suivi
+                                    d'exploitation (gestion des traitements et des données) liées à celle-ci.
+                                </p>
                             </div>
-                            <!-- /Title and Short Description -->
-
                         </div>
-                        <!-- /Left Section -->
 
-                        <!-- Right Section -->
                         <div class="countdown col-md-7 col-sm-12">
-                            <!-- Countdown Timer -->
                             <div class="time">
                                 <div id="count">
                                     <div id="dayTimer">
@@ -110,157 +93,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- /Countdown Timer -->
 
-                            <!-- More Info & Contact Buttons -->
                             <div class="buttons col-sm-12">
-                                <button class="custom-btn toggle-more" type="button" data-toggle="modal" data-target="#moreModal">More information</button>
-                                <button class="custom-btn" type="button" data-toggle="modal" data-target="#contactModal">Contact</button>
+                                <a class="custom-btn toggle-more" href="https://etp.moyo-industry.com/">Je me suis trompé de rôle</a>
                             </div>
-                            <!-- /More Info & Contact Buttons -->
 
-                            <!-- Social Media Links -->
                             <div class="social-media col-sm-12">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-google-plus"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-google-plus"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a>
                             </div>
-                            <!-- /Social Media Links -->
                         </div>
-                        <!-- /Right Section -->
-
                     </div>
                 </div>
-                <!-- /Container -->
             </header>
-            <!-- /Header area -->
-        </div>
-        <!-- /Main Content Area -->
-
-        <!-- More Information Modal area -->
-        <div id="moreModal" class="modal fade" data-backdrop="static">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="container-fluid">
-                        <div class="row">
-
-                            <!-- Close Button -->
-                            <button type="button" class="close toggle-more" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true"><i class="far fa-window-close"></i></span>
-                            </button>
-                            <!-- /Close Button -->
-
-                            <!-- Header and Brand Description -->
-                            <div class="modal-top col-sm-12">
-                                <h2>More About Brand</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-                            </div>
-                            <!-- /Header and Brand Description -->
-
-                        </div>
-
-                        <!-- Phone, Email and Address Details -->
-                        <div class="row">
-
-                            <!-- Phone and Mobile -->
-                            <div class="info-item col-sm-4">
-                                <h3><i class="fas fa-phone"></i>Phone</h3>
-                                <p>Phone: (000) 123 4567
-                                    <br>
-                                    Mobile: (000) 123 4567
-                                </p>
-                            </div>
-                            <!-- /Phone and Mobile -->
-
-                            <!-- Email -->
-                            <div class="info-item col-sm-4">
-                                <h3><i class="fas fa-envelope"></i>Email</h3>
-                                <p>Domain@example.com
-                                    <br>
-                                    Domain@example.com
-                                </p>
-                            </div>
-                            <!-- /Email -->
-
-                            <!-- Address -->
-                            <div class="info-item col-sm-4">
-                                <h3><i class="fas fa-map-marker-alt"></i>Address</h3>
-                                <p>654 Your Street, Your City, DB 12345
-                                </p>
-                            </div>
-                            <!-- /Address -->
-
-                        </div>
-                        <!-- /Phone, Email and Address Details -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /More Information Modal Area -->
-
-        <!-- Contact Modal Area -->
-        <div id="contactModal" class="modal fade">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="container-fluid">
-
-                        <!-- Model Header + Close Button -->
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true"><i class="far fa-window-close"></i></span>
-                            </button>
-                            <h5 class="modal-title">Contact Us</h5>
-                        </div>
-                        <!-- /Model Header + Close Button -->
-
-                        <!-- Contact Form -->
-                        <form id="contactform" action="contact.php" method="post">
-                            <div class="row">
-
-                                <!-- Name Input Field -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required />
-                                    </div>
-                                </div>
-                                <!-- /Name Input Field -->
-
-                                <!-- Email Input Field -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required />
-                                    </div>
-                                </div>
-                                <!-- /Email Input Field -->
-
-                                <!-- Message Textarea Box -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" placeholder="Message*" rows="5" required ></textarea>
-                                    </div>
-                                    <div class="btn-contain">
-                                        <button type="submit" class="contact-btn">Send message</button>
-                                    </div>
-                                </div>
-                                <!-- /Message Textarea Box -->
-
-                                <!-- Error Message After Form Submit -->
-                                <div class="col-md-12">
-                                    <p class="success" style="display:none;">Thank you! We will be in touch with you soon.</p>
-                                    <p class="error" style="display:none;">Oops! Something went wrong, please try again.</p>
-                                </div>
-                                <!-- /Error Message After Form Submit -->
-
-                            </div>
-                        </form>
-                        <!-- /Contact Form -->
-
-                    </div>
-                </div>
-            </div>
         </div>
 
         <script src="js/jquery.min.js"></script>
