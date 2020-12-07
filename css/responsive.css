@@ -1,0 +1,128 @@
+/* ipad 991px or smaller */
+@media screen and (max-width: 991px) {
+
+    #dayTimer, #hourTimer, #minuteTimer, #secondTimer {
+        padding: 25px 0px 15px 0px;
+    }
+
+    .page-header, .countdown-content{
+        padding:0;
+    }
+
+    .main{
+        top:20%;
+    }
+
+    .col-md-7, .col-md-5{
+        -webkit-box-flex:0;
+        -ms-flex:0 0 100%;
+        flex:0 0 100%;
+        max-width:100%;
+    }
+
+    .mt-30 {
+        margin-top:0px;
+    }
+
+}
+
+/* Browser window 767px or smaller */
+@media screen and (max-width: 767px) {
+
+    #day_title, #hour_title, #minute_title, #second_title {
+        margin: 5px 5px;
+        font-size: 14px;
+    }
+
+    #dayTimer, #hourTimer, #minuteTimer, #secondTimer {
+        font-size: 30px;
+        display: inline-block;
+        padding: 25px 5px 15px 5px;
+    }
+
+    .time span {
+        min-width: 40px;
+    }
+
+    .countdown-text h1 {
+        font-size: 30px;
+    }
+
+    .countdown-text p {
+        font-size: 14px;
+    }
+
+}
+
+/* Browser window 493px or smaller */
+@media screen and (max-width: 493px) {
+
+    #dayTimer, #hourTimer, #minuteTimer, #secondTimer {
+        font-size: 25px;
+        padding: 25px 0px 15px 0px;
+    }
+
+    .time span {
+        min-width: 30px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    #contactModal .modal-content {
+        margin-top: 50px;
+    }
+
+}
+
+/* Browser window 402px or smaller */
+@media screen and (max-width: 402px) {
+
+    #day_title, #hour_title, #minute_title, #second_title {
+        margin: 2px 4px;
+        font-size: 10px;
+    }
+
+    #dayTimer, #hourTimer, #minuteTimer, #secondTimer {
+        font-size: 20px;
+        padding: 15px 0px 10px 0px;
+    }
+
+    .time span {
+        min-width: 25px;
+    }
+
+    .buttons .toggle-more {
+        margin-bottom:20px;
+    }
+
+    .custom-btn{
+        margin-right: 4px;
+    }
+
+}
+
+/*** Mobile Screen ***/
+@media only screen and (min-width:300px) and (max-width:350px) {
+
+    .main {
+        top: 5%;
+        padding-top: 5%;
+        min-height: 100vh;
+        position: relative;
+
+    }
+
+}
+
+@media only screen and (min-width:351px) and (max-width:500px) {
+
+    .main {
+        top: 12%;
+        padding-top: 12%;
+        min-height: 100vh;
+        position: relative;
+    }
+
+}

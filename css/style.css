@@ -1,0 +1,435 @@
+/**************************************************
+
+	AUTHOR: MK
+	TEMPLATE: MK - Coming Soon Template
+	VERSION: 1.0
+
+*********************************************************/
+
+@charset "utf-8";
+
+/**************************************************
+
+	TABLE OF CONTENTS
+	1. GENERAL STYLES
+	2. BACKGROUND STYLES
+	3. CONTENT STYLES
+	4. COUNTDOWN STYLES
+	5. MODAL/FORM STYLES
+
+*********************************************************/
+
+/*******************************************************************/
+/* 1. General styles */
+/*******************************************************************/
+
+html, body {
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 26px;
+    color: #fff;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    color: #0060A9;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.page-loader {
+    background: #000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.loader-img {
+    background: url(../images/loader.gif) no-repeat center center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    position: fixed;
+    /* min-height: 100vh; */
+    width: 100%;
+    z-index: -1;
+}
+
+.main {
+    /* padding-top: 15%; */
+    /* min-height: 100vh;  */
+    position: absolute;
+    bottom: 30%;
+}
+
+@-webkit-keyframes scale {
+    0% {opacity: 0; transform: scale(0.0); -webkit-transform: scale(0.0);}
+    100% {opacity: 1; transform: scale(1.0); -webkit-transform: scale(1.0);}
+}
+@-moz-keyframes scale {
+    0% {opacity: 0; transform: scale(0.0); -webkit-transform: scale(0.0);}
+    100% {opacity: 1; transform: scale(1.0); -webkit-transform: scale(1.0);}
+}
+@-o-keyframes scale {
+    0% {opacity: 0; transform: scale(0.0); -webkit-transform: scale(0.0);}
+    100% {opacity: 1; transform: scale(1.0); -webkit-transform: scale(1.0);}
+}
+@keyframes scale {
+    0% {opacity: 0; transform: scale(0.0); -webkit-transform: scale(0.0);}
+    100% {opacity: 1; transform: scale(1.0); -webkit-transform: scale(1.0);}
+}
+
+.scale {
+    -webkit-animation: scale 3s;
+    -moz-animation:    scale 3s;
+    -o-animation:      scale 3s;
+    animation:         scale 3s;
+}
+
+.mt-30 {
+    margin-top:30px;
+}
+
+/*******************************************************************/
+/* 2. Background styles */
+/*******************************************************************/
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-bg {
+    background: url(../images/image-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.gradient-bg {
+    background: linear-gradient(100deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    -moz-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    min-height: 100vh;
+}
+
+.gradient-bg .countdown-content h1 span {color:#fff;}
+
+@-webkit-keyframes gradient {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes gradient {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+.color-bg {
+    background: #000;
+}
+
+.bubbles-bg {
+    background: url(../images/back-image.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%; */
+}
+
+#bubbleContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.bubble {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgba(197, 77, 23, 0.75);
+}
+
+/*******************************************************************/
+/* 3. Content styles */
+/*******************************************************************/
+
+.logo {
+    width: 20%;
+}
+
+.page-header {
+    text-align: center;
+    border-bottom:none;
+}
+
+.page-header, .countdown-content {
+    max-width: 100%;
+    padding:0px 30px;
+    margin: 0 auto;
+}
+
+.countdown-content {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.countdown-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.countdown-content h1 span {
+    color: #F88214;
+}
+.gradient-bg .countdown-content h1 span {
+    color: #000;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.gradient-bg .custom-btn:hover {
+    background: #fff;
+    color: #000;
+}
+.gradient-bg .custom-btn {
+    background: #000;
+}
+
+.custom-btn {
+    transition: all 0.4s ease;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: none;
+    background: #EF7300;
+    border-radius: 0px 10px 0px 10px;
+    outline: none;
+}
+.custom-btn:hover {
+    background: #fff;
+    border-radius: 10px 0px 10px 0px;
+    color: #ef7300;
+}
+
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    transition: all 0.4s ease;
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 3px;
+    width: 30px;
+    border: 1px solid #fff;
+}
+
+.gradient-bg .social-media a:hover {
+    color: #000;
+    background: #FFF;
+    border: 1px solid #FFF;
+}
+
+.social-media a:hover {
+    color: #fff;
+    background: #EF7300;
+    border: 1px solid #EF7300;
+}
+
+/*******************************************************************/
+/* 4. Countdown styles */
+/*******************************************************************/
+
+.time {
+    border-top: 2px solid rgb(114, 75, 48);
+    border-bottom: 2px solid rgb(114, 75, 48);
+}
+
+.gradient-bg .time {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#dayTimer, #hourTimer, #minuteTimer, #secondTimer {
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 40px 5px 25px 0px;
+}
+
+#day_title, #hour_title, #minute_title, #second_title {
+    font-size: 15px;
+    float: right;
+    margin: 8px 5px;
+}
+
+.time span {
+    display: inline-block;
+    min-width: 50px;
+}
+
+/*******************************************************************/
+/* 5. Modal/form styles */
+/*******************************************************************/
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+#moreModal, #contactModal {
+    background: rgba(0,0,0,.9);
+}
+
+#moreModal .modal-content {
+    margin-top: 50px;
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+#moreModal .svg-inline--fa {
+    margin-right: 10px;
+}
+
+#moreModal .modal-content .close {
+    color: #fff;
+    font-size: 30px;
+    margin: 25px auto 50px auto;
+    text-align: center;
+    opacity: inherit;
+    outline: none;
+}
+
+#moreModal .modal-dialog {
+    max-width: 700px;
+}
+
+#moreModal .modal-top {
+    text-align: center;
+}
+
+#moreModal .modal-bottom {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#moreModal .close{
+    float:none;
+    display: flex;
+}
+
+.info-item {
+    margin-top: 25px;
+}
+
+.info-item h3 {
+    font-size: 25px;
+}
+
+#contactModal .modal-content {
+    background: rgba(0,0,0,.7);
+    border: 1px solid #EF7300;
+    margin-top: 150px;
+    padding: 40px 20px;
+}
+.gradient-bg #contactModal .modal-content{
+    border: 1px solid #fff;
+}
+
+#contactModal .modal-dialog {
+    max-width: 700px;
+}
+
+#contactModal .modal-content .close {
+    color: #fff;
+    font-size: 30px;
+    opacity: inherit;
+    outline: none;
+}
+
+#contactModal .modal-header {
+    border: none;
+    padding: 10px 0px 20px 0px;
+}
+
+.success, .error {
+    padding-top: 10px;
+}
+
+.contact-btn {
+    transition: all 0.4s ease;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background: #EF7300;
+}
+
+.gradient-bg .contact-btn{
+    background: #fff;
+    color:#000;
+}
+
+.gradient-bg .contact-btn:hover{
+    background: #000;
+    color:#fff;
+    border:1px solid #fff;
+}
+
+.contact-btn:hover {
+    background: #424242;
+    color: #EF7300;
+}
+
+#contactform input {
+    height: 40px;
+}
