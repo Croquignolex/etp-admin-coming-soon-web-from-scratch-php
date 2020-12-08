@@ -5,8 +5,8 @@
         <meta name="author" content="Alex NGOMBOL,Steve NGANSO">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="MMAC"/>
-        <meta name="keywords" content="MMAC"/>
+        <meta name="description" content="MMAC" />
+        <meta name="keywords" content="MMAC" />
 
         <meta name="robots" content="noindex">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,7 +38,7 @@
 
         <meta property="og:title" content="Alex NGOMBOL,Steve NGANSO" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="fr"/>
+        <meta property="og:locale" content="fr" />
         <meta property="og:ttl" content="0" />
 
         <meta property="og:description" content="MMAC">
