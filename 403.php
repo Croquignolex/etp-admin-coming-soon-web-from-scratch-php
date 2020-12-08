@@ -10,7 +10,7 @@
 
         <meta name="robots" content="noindex">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="base-url" content="https://etp.moyo-industry.com/">
+        <meta name="base-url" content="https://etp-admin.moyo-industry.com/">
         <meta name="locale" content="fr">
 
         <title>403 - MMAC</title>
@@ -42,7 +42,7 @@
         <meta property="og:ttl" content="0" />
 
         <meta property="og:description" content="MMAC">
-        <meta property="og:url" content="https://etp.moyo-industry.com/" />
+        <meta property="og:url" content="https://etp-admin.moyo-industry.com/" />
         <meta property="og:image" content="/img/logo.png" />
         <meta property="twitter:image" content="/img/logo.png" />
 
@@ -65,7 +65,7 @@
                 <h1>403</h1>
                 <h2>Oops!</h2>
                 <p>Le serveur a compris la requête, mais refuse de l'exécuter</p>
-                <a href="https://etp.moyo-industry.com/">Retour à l'accueil</a>
+                <a href="https://etp-admin.moyo-industry.com/">Retour à l'accueil</a>
             </div>
         </div>
     </body>

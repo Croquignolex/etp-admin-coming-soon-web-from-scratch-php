@@ -95,7 +95,7 @@
                             </div>
 
                             <div class="buttons col-sm-12">
-                                <a class="custom-btn toggle-more" href="https://etp.moyo-industry.com/">Je me suis trompé de rôle</a>
+                                <a class="custom-btn toggle-more" href="https://etp-admin.moyo-industry.com/">Je me suis trompé de rôle</a>
                             </div>
 
                             <div class="social-media col-sm-12">
