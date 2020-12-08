@@ -13,7 +13,7 @@
         <meta name="base-url" content="https://etp-admin.moyo-industry.com/">
         <meta name="locale" content="fr">
 
-        <title>Admin MMAC</title>
+        <title>Administrateur - MMAC</title>
 
         <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -64,10 +64,10 @@
                         <div class="col-md-5 col-sm-12 mt-30">
                             <div class="page-logo col-sm-12"><img src="img/logo.png" alt="logo" class="logo"></div>
                             <div class="countdown-content countdown-text col-sm-12">
-                                <h1>Bientôt les <span>admin</span> auront le controle...</h1>
+                                <h1>Bientôt les <span>administrateurs</span> auront le controle...</h1>
                                 <p>
-                                    L'administrateur d'une applicatin web est en charge des activités de suivi
-                                    d'exploitation (gestion des traitements et des données) liées à celle-ci.
+                                    Le rôle administrateur de MMC est en charge de la
+                                    gestion de l'exploitation, administration et maintenance de l'application.
                                 </p>
                             </div>
                         </div>
